@@ -25,48 +25,110 @@ const compatibilityData: CompatibilityData[] = [
     manufacturer: "ASUS",
     socket: "LGA1151",
     chipset: "H110",
-    supportedCpus: ["Intel Core i3-6100", "Intel Core i5-6400", "Intel Core i5-6500", "Intel Core i7-6700"],
+    supportedCpus: [
+      "Intel Core i7-7700K", "Intel Core i7-7700", "Intel Core i7-6700K", "Intel Core i7-6700",
+      "Intel Core i5-7600K", "Intel Core i5-7600", "Intel Core i5-7500", "Intel Core i5-7400",
+      "Intel Core i5-6600K", "Intel Core i5-6600", "Intel Core i5-6500", "Intel Core i5-6400",
+      "Intel Core i3-7350K", "Intel Core i3-7320", "Intel Core i3-7300", "Intel Core i3-7100",
+      "Intel Core i3-6320", "Intel Core i3-6300", "Intel Core i3-6100",
+      "Intel Pentium G4620", "Intel Pentium G4600", "Intel Pentium G4560", "Intel Pentium G4500", "Intel Pentium G4400",
+      "Intel Celeron G3950", "Intel Celeron G3930", "Intel Celeron G3900"
+    ],
     maxRam: "32GB",
     ramSlots: 2,
     formFactor: "Micro-ATX",
     price: "~3500₽",
-    features: ["USB 3.0", "SATA 6Gb/s", "PCIe 3.0"]
+    features: ["2x DDR4 слота", "1x PCIe x16", "VGA/DVI выходы", "USB 3.0", "SATA 6Gb/s"]
   },
   {
     motherboard: "MSI H110M PRO-VD",
     manufacturer: "MSI",
     socket: "LGA1151",
     chipset: "H110",
-    supportedCpus: ["Intel Core i3-6100", "Intel Core i5-6400", "Intel Core i5-6500", "Intel Core i7-6700", "Intel Pentium G4400"],
+    supportedCpus: [
+      "Intel Core i7-7700", "Intel Core i7-6700",
+      "Intel Core i5-7500", "Intel Core i5-7400", "Intel Core i5-6500", "Intel Core i5-6400",
+      "Intel Core i3-7100", "Intel Core i3-6100",
+      "Intel Pentium G4560", "Intel Pentium G4500", "Intel Pentium G4400",
+      "Intel Celeron G3930", "Intel Celeron G3900"
+    ],
     maxRam: "32GB",
     ramSlots: 2,
     formFactor: "Micro-ATX",
     price: "~3200₽",
-    features: ["USB 3.0", "SATA 6Gb/s", "DDR4-2133"]
+    features: ["2x DDR4 слота", "1x PCIe x16", "VGA/DVI выходы", "Audio Boost", "USB 3.0"]
   },
   {
     motherboard: "Gigabyte GA-H110M-S2H",
     manufacturer: "Gigabyte",
     socket: "LGA1151",
     chipset: "H110",
-    supportedCpus: ["Intel Core i3-6100", "Intel Core i5-6400", "Intel Core i5-6500", "Intel Core i7-6700K", "Intel Pentium G4500"],
+    supportedCpus: [
+      "Intel Core i7-7700K", "Intel Core i7-6700K",
+      "Intel Core i5-7600", "Intel Core i5-6600",
+      "Intel Core i3-7320", "Intel Core i3-6320",
+      "Intel Pentium G4620", "Intel Pentium G4600", "Intel Pentium G4560", "Intel Pentium G4500",
+      "Intel Celeron G3950", "Intel Celeron G3930"
+    ],
     maxRam: "32GB",
     ramSlots: 2,
     formFactor: "Micro-ATX",
     price: "~3800₽",
-    features: ["USB 3.0", "HDMI", "DVI-D", "VGA"]
+    features: ["2x DDR4 слота", "1x PCIe x16", "HDMI/DVI/VGA", "USB 3.1", "App Center"]
   },
   {
     motherboard: "ASRock H110M-DGS",
     manufacturer: "ASRock",
     socket: "LGA1151",
     chipset: "H110",
-    supportedCpus: ["Intel Core i3-6300", "Intel Core i5-6600", "Intel Core i7-6700", "Intel Celeron G3900"],
+    supportedCpus: [
+      "Intel Core i7-7700", "Intel Core i7-6700",
+      "Intel Core i5-7400", "Intel Core i5-6400",
+      "Intel Core i3-7100", "Intel Core i3-6100",
+      "Intel Pentium G4560", "Intel Pentium G4400",
+      "Intel Celeron G3930", "Intel Celeron G3900"
+    ],
     maxRam: "32GB",
     ramSlots: 2,
     formFactor: "Micro-ATX",
     price: "~2900₽",
-    features: ["USB 3.0", "SATA 6Gb/s", "Full Spike Protection"]
+    features: ["2x DDR4 слота", "1x PCIe x16", "HDMI/DVI выходы", "7.1 CH HD Audio", "Full Spike Protection"]
+  },
+  {
+    motherboard: "ASUS H110M-D",
+    manufacturer: "ASUS",
+    socket: "LGA1151",
+    chipset: "H110",
+    supportedCpus: [
+      "Intel Core i7-7700", "Intel Core i7-6700",
+      "Intel Core i5-7500", "Intel Core i5-7400", "Intel Core i5-6500", "Intel Core i5-6400",
+      "Intel Core i3-7100", "Intel Core i3-6100",
+      "Intel Pentium G4560", "Intel Pentium G4400",
+      "Intel Celeron G3930", "Intel Celeron G3900"
+    ],
+    maxRam: "32GB",
+    ramSlots: 2,
+    formFactor: "Micro-ATX",
+    price: "~3300₽",
+    features: ["2x DDR4 слота", "1x PCIe x16", "VGA/DVI выходы", "USB 3.0", "EZ Flash 3"]
+  },
+  {
+    motherboard: "MSI H110M PRO-VH",
+    manufacturer: "MSI",
+    socket: "LGA1151",
+    chipset: "H110",
+    supportedCpus: [
+      "Intel Core i7-7700", "Intel Core i7-6700",
+      "Intel Core i5-7500", "Intel Core i5-6500",
+      "Intel Core i3-7100", "Intel Core i3-6100",
+      "Intel Pentium G4620", "Intel Pentium G4560", "Intel Pentium G4400",
+      "Intel Celeron G3950", "Intel Celeron G3930"
+    ],
+    maxRam: "32GB",
+    ramSlots: 2,
+    formFactor: "Micro-ATX",
+    price: "~3400₽",
+    features: ["2x DDR4 слота", "1x PCIe x16", "HDMI/VGA выходы", "USB 3.0", "Audio Boost"]
   }
 ];
 
@@ -261,6 +323,10 @@ export default function CompatibilityTable() {
                   <li className="flex items-center gap-2">
                     <Icon name="Cpu" size={16} className="text-primary" />
                     Intel 6th Gen (Skylake)
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Icon name="Cpu" size={16} className="text-primary" />
+                    Intel 7th Gen (Kaby Lake)
                   </li>
                   <li className="flex items-center gap-2">
                     <Icon name="Cpu" size={16} className="text-primary" />
